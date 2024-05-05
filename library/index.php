@@ -103,6 +103,7 @@
                     <?php   
                     $buku = new controller();
                     //$buku -> createBook ($nama, $penulis, $harga, $stok);
+                    
                     $buku -> getBooks ();
                     ?>
                 </ol>
@@ -113,6 +114,7 @@
             <?php
             $user = new controller();
             //$user -> createUser ($nama, $alamat, $telepon);
+
             $user -> getUser ();
             ?>
             </div>
@@ -120,6 +122,7 @@
                 <?php
                 $log = new controller();
                 //$log -> addLog ($id, $buku, $user, $date, $status);
+
                 $log -> getLogs ();
                 ?>
             </div>
